@@ -64,27 +64,49 @@ Q16)
 
 -----------------------------------------------task 2 --------------------------------------------------------------
 cat /etc/shells                          Q1
+
 printenv                                Q2
+
 echo $SHELL                              Q3
+
 env                                     Q4
+
 echo "Welcome! Today is $(date)" >> ~/.bashrc         Q5
+
 echo 'export PS1="[\u@\h \W]$ "' >> ~/.bashrc          Q5
+
 ls > file_list.txt                      Q6
+
 ls *.txt                                Q7
+
 ls >> file_list.txt                     Q8
+
 ls | grep report                         Q9
+
 head filename.txt                        Q10
+
 tail filename.txt                        Q10
+
 cut -d',' -f2 data.csv                  Q11
+
 grep "ERROR" log.txt                     Q12
+
 current_user=$(whoami)                  Q13
+
 echo "hello world" | tr 'a-z' 'A-Z'      Q14
+
 ps aux | grep process_name               Q15
+
 alias ls='ls -l'                        Q16
+
 ls -lS                                  Q17
+
 grep -c "success" filename.txt           Q18
+
 dmesg > dmesg_output.txt                Q19
+
 head -n 20 dmesg_output.txt             Q19
+
 cut -d',' -f1 filename.csv              Q20
 
 
